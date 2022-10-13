@@ -8,16 +8,33 @@
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="defaults.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./mobile.css">
 </head>
 <body>
     <!--header section starts here  -->
     <header>
 
+        <nav class="nav-mobile">
+
+            <div class="mobile-logo">
+                <div class="mobile-logo-container">
+                    <i class="fa-regular fa-hand-lizard"></i>
+                </div>
+                <span>Foodplug</span>
+            </div>
+
+            <div class="hamburger" onclick="dosomething()">
+                <div class="menu"></div>
+            </div>
+
+        </nav>
+
         <nav class="nav-desktop">
+
             <div class="desktop-logo">
                 <i class="fa-regular fa-hand-lizard"></i>
-                
             </div>
+
             <div class="desktop-link-holder">
                 <ul>
                     <li><a href="">Home</a></li>
@@ -43,8 +60,34 @@
                 </div>
             </div>
         </div>
+        <div class="header-counter-section">
+
+        <div class="counter">
+            <h2>1287+</h2>
+            <p>savings</p>
+        </div>
+
+        <div class="counter">
+            <h2>1287+</h2>
+            <p>photos</p>
+        </div>
+
+        <div class="counter">
+            <h2>1287+</h2>
+            <p>rockets</p>
+        </div>
+
+        <div class="counter">
+            <h2>1287+</h2>
+            <p>globes</p>
+        </div>
+
+
+        </div>
 
     </header>
+
+    <script src="main.js"></script>
 
     <!--header section starts ends  -->
 
