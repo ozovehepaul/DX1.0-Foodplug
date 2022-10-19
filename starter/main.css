@@ -516,8 +516,7 @@ margin-top: 10px;}
 
 .foodprice{
     margin: 5px 0;
-    border-bottom: 0.5px
-    5px solid var(--light-text-color);
+    border-bottom: 0.5px solid var(--light-text-color);
     font-weight: bolder;
     font-size: 20px;
 
@@ -531,11 +530,20 @@ margin-top: 10px;}
 
 
  /* Faq section starts here */
+.faq-container-spacer{
+    /* border: 3px solid black; */
+    width: 100%;
+    height: 10px;
+    margin: 0 0 10px 0;
+    color: transparent;
+    display: block;
+}
+
 .faq{
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
     width: 90%;
     margin: 0 auto;
-    padding: 30px 0;
+    padding:30px 0;
 }
 
 
@@ -555,7 +563,7 @@ margin-top: 10px;}
 .faq-items-title i{color: var(--main-color);}
 
 .faq-container{
-    border:3px solid black;
+    /* border:3px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -566,13 +574,131 @@ margin-top: 10px;}
     width: 49%;
     min-width: 350px;
     margin: 15px 0;
+}
 
+.faq-items p{text-align: justify;}
+ /* Faq section ends here */
+
+
+ /* CTA section starts here */
+.cta-section{
+    /* border: 3px solid tomato; */
+    width: 90%;
+    margin: 0 auto;
+}
+.cta-showcase{
+    /* border: 3px solid black; */
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--gradient), url("./img/cta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+    color: var(--white-color);
+}
+
+.cta-notice{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cta-notice h2{
+    color: var(--main-color);
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.cta-notice p{margin: 20px 0;}
+
+.cta-input-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.cta-input-holder input{
+    padding: 15px 10px;
+    width: 200px;
+    min-width: 100px;
+    transition: all 0.5s ease;
+    outline: none;
+    border: 2px solid var(--main-color);
 }
 
 
+.cta-input-holder input:hover{
+    width: 250px;
+}
+
+.cta-input-holder button{
+    color: var(--white-color);
+    background: var(--main-color);
+    border: 2px solid var(--main-color);
+}
+
+ /* CTA section ends here */
 
 
- /* Faq section ends here */
+ /* footer section starts here */
+ footer{
+    background: var(--main-color);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--white-color);
+ }
+
+ footer button i{ margin: 0;
+transition: all 0.5s ease;
+}
+
+ footer button:hover i{
+    margin-left: 10px;
+
+ }
+
+ footer a{
+    color: var(--white-color);
+    text-decoration: none;
+ }
+
+ footer button{
+    border: 2px solid var(--white-color);
+    background: transparent;
+    color: var(--white-color);
+ }
+
+ footer button:hover{
+    background: var(--main-color-dark);
+ }
+
+ .footer-icon-holder{
+    /* border: 3px solid white; */
+    /* height: 60px; */
+    /* width: 200px; */
+    display: flex;
+ }
+ .icon-container{
+    display: block;
+    border: 2px solid var(--white-color);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 5px;
+ }
+
+ .icon-container:hover{
+    background: var(--main-color-dark);
+ }
+
+
+ /* footer section ends here */
 
 
 /* safety measures starts here */
