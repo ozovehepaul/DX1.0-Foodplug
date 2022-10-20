@@ -486,10 +486,10 @@ margin-top: 10px;}
 }
 .explorefoods-cards-imageholder{
     height: 200px;
-    /* border: 3px solid black; */
     overflow: hidden;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    border: 2px solid var(--main-color);
 }
 .explorefoods-cards-imageholder img{
     width: 100%;
